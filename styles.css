@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Ensure the main content pushes the footer down */
+.main-content {
+    flex: 1; /* Takes available space, pushing footer to bottom */
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin-top: auto; /* Ensures footer stays at the bottom */
+}
